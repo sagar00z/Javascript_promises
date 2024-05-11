@@ -46,5 +46,6 @@ placeOrder('coffee').then(function(orderPlaced){
     return orderIsProcess
 }).then(function(processedOrder){
     console.log(processedOrder)
+}).catch(function(err){
+    consol.log(err)
 })
-
