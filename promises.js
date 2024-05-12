@@ -48,4 +48,4 @@ placeOrder('coffee').then(function(orderPlaced){
     console.log(processedOrder)
 }).catch(function(err){
     consol.log(err)
-})
+})// handle error
